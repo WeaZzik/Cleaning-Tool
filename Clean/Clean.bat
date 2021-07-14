@@ -10,6 +10,7 @@ if %choix%==O goto clean
 if %choix%==N goto normal
 
 :clean
+cd
 copy Data\wget.exe C:\Windows\System32
 del Data\wget.exe
 del Data\.wget-hsts
@@ -33,6 +34,7 @@ del Clean.bat
 exit
 
 :normal
+cd
 start Data\Clean+.bat
 del Data\wget.exe
 del Clean.bat
