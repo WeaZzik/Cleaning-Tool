@@ -15,8 +15,8 @@ copy Data\wget.exe C:\Windows\System32
 del Data\wget.exe
 del Data\.wget-hsts
 mkdir Softwares
-wget "https://download.adlice.com/api?action=download&app=roguekiller&type=setup"
-ren "api@action=download&app=roguekiller&type=setup" RogueKiller.exe
+wget "https://download.adlice.com/api?action=download&app=roguekiller&type=x64"
+ren "api@action=download&app=roguekiller&type=x64" RogueKiller.exe
 move RogueKiller.exe Softwares
 wget "https://downloads.malwarebytes.com/file/adwcleaner"
 ren "adwcleaner" Adwcleaner.exe
